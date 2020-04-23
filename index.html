@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <script
+      src="https://kit.fontawesome.com/e2ef9baa8a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Filter</title>
+  </head>
+  <body>
+    <!--glavni container-->
+    <!--modal container-->
+    <div class="modal-container">
+      <a href="#" class="close-modal"><i class="far fa-window-close"></i> </a>
+      <a href="#" class="left-modal"><i class="fas fa-chevron-left modalBtn"></i> </a>
+      <a href="#" class="right-modal"><i class="fas fa-chevron-right modalBtn"></i> </a>
+      <img src="./img/car-1.jpg" alt="" class="img-modal">
+    </div>
+    <!--kraj modal container-->
+    <div class="main-container">
+      <!--ime-->
+      <header class="header">
+        <div class="header_logo">
+          <h1 class="name">car <span class="name-store">store</span></h1>
+        </div>
+        <div class="header_btns">
+          <div class="btn-container">
+            <a href="#" class="btn" data-filter="all">all</a>
+            <a href="#" class="btn" data-filter="mercedes">mercedes</a>
+            <a href="#" class="btn" data-filter="bmw">bmw</a>
+            <a href="#" class="btn" data-filter="vw">vw</a>
+            <a href="#" class="btn" data-filter="audi">audi</a>
+          </div>
+        </div>
+        <div class="header_cart">
+          blaaa
+        </div>
+      </header>
+      <!--kraj ime-->
+      <!--container za dugmad-->
+      <!--form container-->
+      <div class="form-container">
+        <form class="form">
+          <input
+            type="text"
+            name=""
+            id=""
+            class="input"
+            placeholder="search for a model..."
+          />
+        </form>
+      </div>
+      <!--kraj form container-->
+      <!--store items container-->
+      <div class="items-container">
+        <!--single item-->
+        <div class="store-item" data-id="mercedes">
+          <div class="img-container">
+            <div class="cartIcon-container">
+              <a href="#" class="cartIcon"><i class="fas fa-shopping-cart"></i>
+              </a>  
+            </div>
+            <img src="./img/car-1.jpg" alt="" class="store-img" />
+          </div>
+          <!--store card-->
+          <div class="store-card">
+            <span class="store-card-name">Mercedes</span>
+            <span class="store-card-price">$ 15.000</span>
+          </div>
+          <!--store card-->
+        </div>
+        <!--kraj single item-->
+        <!--single item-->
+        <div class="store-item" data-id="bmw">
+          <div class="img-container">
+            <div class="cartIcon-container">
+              <a href="#" class="cartIcon"><i class="fas fa-shopping-cart"></i>
+              </a>  
+            </div>
+            <img src="./img/car-2.jpg" alt="" class="store-img" />
+          </div>
+          <!--store card-->
+          <div class="store-card">
+            <span class="store-card-name">Bmw </span>
+            <span class="store-card-price">$ 13.000</span>
+          </div>
+          <!--store card-->
+        </div>
+        <!--kraj single item-->
+        <!--single item-->
+        <div class="store-item" data-id="vw">
+          <div class="img-container">
+            <div class="cartIcon-container">
+              <a href="#" class="cartIcon"><i class="fas fa-shopping-cart"></i>
+              </a>  
+            </div>
+            <img src="./img/car-3.jpg" alt="" class="store-img" />
+          </div>
+          <!--store card-->
+          <div class="store-card">
+            <span class="store-card-name">Volkswagen</span>
+            <span class="store-card-price">$ 7.000</span>
+          </div>
+          <!--store card-->
+        </div>
+        <!--kraj single item-->
+        <!--single item-->
+        <div class="store-item" data-id="audi">
+          <div class="img-container">
+            <div class="cartIcon-container">
+              <a href="#" class="cartIcon"><i class="fas fa-shopping-cart"></i>
+              </a>  
+            </div>
+            <img src="./img/car-4.jpg" alt="" class="store-img" />
+          </div>
+          <!--store card-->
+          <div class="store-card">
+            <span class="store-card-name">Audi</span>
+            <span class="store-card-price">$ 17.000</span>
+          </div>
+          <!--store card-->
+        </div>
+        <!--kraj single item-->
+        <!--single item-->
+        <div class="store-item" data-id="mercedes">
+          <div class="img-container">
+            <div class="cartIcon-container">
+              <a href="#" class="cartIcon"><i class="fas fa-shopping-cart"></i>
+              </a>  
+            </div>
+            <img src="./img/car-5.jpg" alt="" class="store-img" />
+          </div>
+          <!--store card-->
+          <div class="store-card">
+            <span class="store-card-name">Mercedes</span>
+            <span class="store-card-price">$ 10.000</span>
+          </div>
+          <!--store card-->
+        </div>
+        <!--kraj single item-->
+        <!--single item-->
+        <div class="store-item" data-id="bmw">
+          <div class="img-container">
+            <div class="cartIcon-container">
+              <a href="#" class="cartIcon"><i class="fas fa-shopping-cart"></i>
+              </a>  
+            </div>
+            <img src="./img/car-6.jpg" alt="" class="store-img" />
+          </div>
+          <!--store card-->
+          <div class="store-card">
+            <span class="store-card-name">Bmw</span>
+            <span class="store-card-price">$ 20.000</span>
+          </div>
+          <!--store card-->
+        </div>
+        <!--kraj single item-->
+        <!--single item-->
+        <div class="store-item" data-id="vw">
+          <div class="img-container">
+            <div class="cartIcon-container">
+              <a href="#" class="cartIcon"><i class="fas fa-shopping-cart"></i>
+              </a>  
+            </div>
+            <img src="./img/car-7.jpg" alt="" class="store-img" />
+          </div>
+          <!--store card-->
+          <div class="store-card">
+            <span class="store-card-name">Volkswagen</span>
+            <span class="store-card-price">$ 5.000</span>
+          </div>
+          <!--store card-->
+        </div>
+        <!--kraj single item-->
+        <!--single item-->
+        <div class="store-item" data-id="audi">
+          <div class="img-container">
+            <div class="cartIcon-container">
+              <a href="#" class="cartIcon"><i class="fas fa-shopping-cart"></i>
+              </a>  
+            </div>
+            <img src="./img/car-8.jpg" alt="" class="store-img" />
+          </div>
+          <!--store card-->
+          <div class="store-card">
+            <span class="store-card-name">Audi</span>
+            <span class="store-card-price">$ 25.000</span>
+          </div>
+          <!--store card-->
+        </div>
+        <!--kraj single item-->
+        <!--single item-->
+        <div class="store-item" data-id="mercedes">
+          <div class="img-container">
+            <div class="cartIcon-container">
+              <a href="#" class="cartIcon"><i class="fas fa-shopping-cart"></i>
+              </a>  
+            </div>
+            <img src="./img/car-9.jpg" alt="" class="store-img" />
+          </div>
+          <!--store card-->
+          <div class="store-card">
+            <span class="store-card-name">Mercedes</span>
+            <span class="store-card-price">$ 15.000</span>
+          </div>
+          <!--store card-->
+        </div>
+        <!--kraj single item-->
+        <!--single item-->
+        <div class="store-item" data-id="bmw">
+          <div class="img-container">
+            <div class="cartIcon-container">
+              <a href="#" class="cartIcon"><i class="fas fa-shopping-cart"></i>
+              </a>  
+            </div>
+            <img src="./img/car-10.jpg" alt="" class="store-img" />
+          </div>
+          <!--store card-->
+          <div class="store-card">
+            <span class="store-card-name">Bmw</span>
+            <span class="store-card-price">$ 7.000</span>
+          </div>
+          <!--store card-->
+        </div>
+        <!--kraj single item-->
+        <!--single item-->
+        <div class="store-item" data-id="vw">
+          <div class="img-container">
+            <div class="cartIcon-container">
+              <a href="#" class="cartIcon"><i class="fas fa-shopping-cart"></i>
+              </a>  
+            </div>
+            <img src="./img/car-11.jpg" alt="" class="store-img" />
+          </div>
+          <!--store card-->
+          <div class="store-card">
+            <span class="store-card-name">Volkswagen</span>
+            <span class="store-card-price">$ 3.000</span>
+          </div>
+          <!--store card-->
+        </div>
+        <!--kraj single item-->
+        <!--single item-->
+        <div class="store-item" data-id="audi">
+          <div class="img-container">
+            <div class="cartIcon-container">
+              <a href="#" class="cartIcon"><i class="fas fa-shopping-cart"></i>
+              </a>  
+            </div>
+            <img src="./img/car-12.jpg" alt="" class="store-img" />
+          </div>
+          <!--store card-->
+          <div class="store-card">
+            <span class="store-card-name">Audi</span>
+            <span class="store-card-price">$ 30.000</span>
+          </div>
+          <!--store card-->
+        </div>
+        <!--kraj single item-->
+      </div>
+      <!--kraj store items container-->
+      <!--kraj container za dugmad-->
+    </div>
+    <!--kraj glavni container-->
+    <script src="app.js"></script>
+  </body>
+</html>
