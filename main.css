@@ -166,10 +166,6 @@ body {
 }
 /* --- Modal --- */
 /* --- Cart Items --- */
-.contact_cart,
-.cart_container {
-  padding: 0.5rem;
-}
 .cart_container {
   border: 1px solid #000000;
   border-radius: 0.5rem;
@@ -204,10 +200,9 @@ body {
   width: 0;
   z-index: 2;
   overflow: hidden;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 .cartSingleItem {
-  padding: 1rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: 30rem;
@@ -228,12 +223,9 @@ body {
 .cartDetails {
   display: block;
   font-weight: 999;
-  color: white;
-  font-size: 1.5rem;
 }
 .cartPrice {
   font-style: italic;
-  color: white;
 }
 .cartTotal {
   display: grid;
@@ -242,8 +234,6 @@ body {
 .cartTotal_container-text,
 .cartTotal_container-price {
   text-align: center;
-  color: white;
-  font-size: 1.5rem;
   font-style: italic;
   font-weight: 400;
 }
@@ -253,15 +243,12 @@ body {
 .cartButtons {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 1rem;
 }
 .clearCart,
 .checkout {
   text-decoration: none;
-  color: white;
   border: 1px solid black;
   border-radius: 0.5rem;
-  padding: 0.5rem;
   transition: all 0.3s;
 }
 .checkout:hover,
@@ -271,14 +258,35 @@ body {
   border: none;
   text-transform: uppercase;
 }
-.cartShow{
-  width: 30rem;
+.cartDetails,
+.cartPrice,
+.cartTotal_container-text,
+.cartTotal_container-price,
+.clearCart,
+.checkout {
+  color: #ffffff;
 }
-.cartDetails, .cartPrice, .cartTotal_container-text, .cartTotal_container-price, .clearCart, .checkout{
-  
+.cartDetails,
+.cartTotal_container-text,
+.cartTotal_price {
+  font-size: 1.5rem;
+}
+.contact_cart,
+.cart_container,
+.checkout,
+.clearCart {
+  padding: 0.5rem;
+}
+.cartSingleItem,
+.cartButtons {
+  padding: 1rem;
 }
 /* --- Cart Items --- */
-/* ----------------------------------------------------*/
+/* --- Actions --- */
+.cartShow {
+  width: 30rem;
+}
+/* --- Actions --- */
 /* --- Media q --- */
 @media screen and (min-width: 300px) {
   html {
@@ -396,14 +404,31 @@ body {
     font-size: 1.4rem;
   }
 }
-@media screen and (min-width: 1050px) {
-  .btn {
+@media screen and (min-width: 1049px) {
+  .btn,
+  .contact_number,
+  .cart,
+  .cartPrice,
+  .clearCart,
+  .checkout,
+  .itemsCount {
     font-size: 1.7rem;
   }
 }
 @media screen and (min-width: 1150px) {
-  .btn {
+    .btn,
+  .contact_number,
+  .cart,
+  .cartPrice,
+  .clearCart,
+  .checkout,
+  .itemsCount {
     font-size: 2rem;
   }
+  .cartDetails,
+.cartTotal_container-text,
+.cartTotal_price {
+  font-size: 1.7rem;
+}
 }
 /* --- Media q --- */
