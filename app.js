@@ -99,3 +99,10 @@
   });
 })();
 /* --- Modal Code --- */
+/* --- Cart Code --- */
+let cart = document.querySelector('.cart_container');
+let lower = document.querySelector('.lowerPart');
+cart.addEventListener('click', ()=>{
+  lower.classList.toggle('cartShow')
+})
+/* --- Cart Code --- */

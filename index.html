@@ -19,29 +19,84 @@
     <!--modal container-->
     <div class="modal-container">
       <a href="#" class="close-modal"><i class="far fa-window-close"></i> </a>
-      <a href="#" class="left-modal"><i class="fas fa-chevron-left modalBtn"></i> </a>
-      <a href="#" class="right-modal"><i class="fas fa-chevron-right modalBtn"></i> </a>
-      <img src="./img/car-1.jpg" alt="" class="img-modal">
+      <a href="#" class="left-modal"
+        ><i class="fas fa-chevron-left modalBtn"></i>
+      </a>
+      <a href="#" class="right-modal"
+        ><i class="fas fa-chevron-right modalBtn"></i>
+      </a>
+      <img src="./img/car-1.jpg" alt="" class="img-modal" />
     </div>
     <!--kraj modal container-->
     <div class="main-container">
       <!--ime-->
       <header class="header">
-        <div class="header_logo">
-          <h1 class="name">car <span class="name-store">store</span></h1>
-        </div>
-        <div class="header_btns">
-          <div class="btn-container">
-            <a href="#" class="btn" data-filter="all">all</a>
-            <a href="#" class="btn" data-filter="mercedes">mercedes</a>
-            <a href="#" class="btn" data-filter="bmw">bmw</a>
-            <a href="#" class="btn" data-filter="vw">vw</a>
-            <a href="#" class="btn" data-filter="audi">audi</a>
+        <div class="upperPart">
+          <div class="header_logo">
+            <h1 class="name">car <span class="name-store">store</span></h1>
+          </div>
+          <div class="header_btns">
+            <div class="btn-container">
+              <a href="#" class="btn" data-filter="all">all</a>
+              <a href="#" class="btn" data-filter="mercedes">mercedes</a>
+              <a href="#" class="btn" data-filter="bmw">bmw</a>
+              <a href="#" class="btn" data-filter="vw">vw</a>
+              <a href="#" class="btn" data-filter="audi">audi</a>
+            </div>
+          </div>
+          <!--Cart-->
+          <div class="header_cart">
+            <div class="contact_cart">
+              <p>
+                <a href="#" class="cart noClick"
+                  ><i class="fas fa-phone"></i>
+                </a>
+                <span class="contact_number">+ 123 456 789</span>
+              </p>
+            </div>
+            <div class="cart_container">
+              <div class="cartItems">
+                <p>
+                  <a href="#" class="cart cartHover"
+                    ><i class="fas fa-shopping-cart"></i> </a
+                  ><span class="number">2</span> Items - $<span class="total"
+                    >10.49</span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="lowerPart">
+            <!--Cart Single Item-->
+            <div class="cartSingleItem">
+              <div class="cartImg_container">
+                <img src="./img/car-1.jpg" alt="" class="cartImg" />
+              </div>
+              <div class="cartDetails_container">
+                <span class="cartDetails">Cart Item</span>
+                <span class="cartPrice">$ 10.99</span>
+              </div>
+            </div>
+            <!--Cart Single Item-->
+            <div class="cartTotal">
+              <div class="cartTotal_container-text">
+                <p class="cartTotal_text">Total</p>
+              </div>
+              <div class="cartTotal_container-price">
+                <p>$ <span class="cartTotal_price">10.00</span></p>
+              </div>
+            </div>
+            <div class="cartButtons">
+              <div class="cartButtons_clearCart">
+                <a href="#" class="clearCart">clear cart</a>
+              </div>
+              <div class="cartButtons_checkout">
+                <a href="#" class="checkout">checkout</a>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="header_cart">
-          blaaa
-        </div>
+        <!--Cart-->
       </header>
       <!--kraj ime-->
       <!--container za dugmad-->
@@ -64,8 +119,9 @@
         <div class="store-item" data-id="mercedes">
           <div class="img-container">
             <div class="cartIcon-container">
-              <a href="#" class="cartIcon"><i class="fas fa-shopping-cart"></i>
-              </a>  
+              <a href="#" class="cartIcon"
+                ><i class="fas fa-shopping-cart"></i>
+              </a>
             </div>
             <img src="./img/car-1.jpg" alt="" class="store-img" />
           </div>
@@ -81,8 +137,9 @@
         <div class="store-item" data-id="bmw">
           <div class="img-container">
             <div class="cartIcon-container">
-              <a href="#" class="cartIcon"><i class="fas fa-shopping-cart"></i>
-              </a>  
+              <a href="#" class="cartIcon"
+                ><i class="fas fa-shopping-cart"></i>
+              </a>
             </div>
             <img src="./img/car-2.jpg" alt="" class="store-img" />
           </div>
@@ -98,8 +155,9 @@
         <div class="store-item" data-id="vw">
           <div class="img-container">
             <div class="cartIcon-container">
-              <a href="#" class="cartIcon"><i class="fas fa-shopping-cart"></i>
-              </a>  
+              <a href="#" class="cartIcon"
+                ><i class="fas fa-shopping-cart"></i>
+              </a>
             </div>
             <img src="./img/car-3.jpg" alt="" class="store-img" />
           </div>
@@ -115,8 +173,9 @@
         <div class="store-item" data-id="audi">
           <div class="img-container">
             <div class="cartIcon-container">
-              <a href="#" class="cartIcon"><i class="fas fa-shopping-cart"></i>
-              </a>  
+              <a href="#" class="cartIcon"
+                ><i class="fas fa-shopping-cart"></i>
+              </a>
             </div>
             <img src="./img/car-4.jpg" alt="" class="store-img" />
           </div>
@@ -132,8 +191,9 @@
         <div class="store-item" data-id="mercedes">
           <div class="img-container">
             <div class="cartIcon-container">
-              <a href="#" class="cartIcon"><i class="fas fa-shopping-cart"></i>
-              </a>  
+              <a href="#" class="cartIcon"
+                ><i class="fas fa-shopping-cart"></i>
+              </a>
             </div>
             <img src="./img/car-5.jpg" alt="" class="store-img" />
           </div>
@@ -149,8 +209,9 @@
         <div class="store-item" data-id="bmw">
           <div class="img-container">
             <div class="cartIcon-container">
-              <a href="#" class="cartIcon"><i class="fas fa-shopping-cart"></i>
-              </a>  
+              <a href="#" class="cartIcon"
+                ><i class="fas fa-shopping-cart"></i>
+              </a>
             </div>
             <img src="./img/car-6.jpg" alt="" class="store-img" />
           </div>
@@ -166,8 +227,9 @@
         <div class="store-item" data-id="vw">
           <div class="img-container">
             <div class="cartIcon-container">
-              <a href="#" class="cartIcon"><i class="fas fa-shopping-cart"></i>
-              </a>  
+              <a href="#" class="cartIcon"
+                ><i class="fas fa-shopping-cart"></i>
+              </a>
             </div>
             <img src="./img/car-7.jpg" alt="" class="store-img" />
           </div>
@@ -183,8 +245,9 @@
         <div class="store-item" data-id="audi">
           <div class="img-container">
             <div class="cartIcon-container">
-              <a href="#" class="cartIcon"><i class="fas fa-shopping-cart"></i>
-              </a>  
+              <a href="#" class="cartIcon"
+                ><i class="fas fa-shopping-cart"></i>
+              </a>
             </div>
             <img src="./img/car-8.jpg" alt="" class="store-img" />
           </div>
@@ -200,8 +263,9 @@
         <div class="store-item" data-id="mercedes">
           <div class="img-container">
             <div class="cartIcon-container">
-              <a href="#" class="cartIcon"><i class="fas fa-shopping-cart"></i>
-              </a>  
+              <a href="#" class="cartIcon"
+                ><i class="fas fa-shopping-cart"></i>
+              </a>
             </div>
             <img src="./img/car-9.jpg" alt="" class="store-img" />
           </div>
@@ -217,8 +281,9 @@
         <div class="store-item" data-id="bmw">
           <div class="img-container">
             <div class="cartIcon-container">
-              <a href="#" class="cartIcon"><i class="fas fa-shopping-cart"></i>
-              </a>  
+              <a href="#" class="cartIcon"
+                ><i class="fas fa-shopping-cart"></i>
+              </a>
             </div>
             <img src="./img/car-10.jpg" alt="" class="store-img" />
           </div>
@@ -234,8 +299,9 @@
         <div class="store-item" data-id="vw">
           <div class="img-container">
             <div class="cartIcon-container">
-              <a href="#" class="cartIcon"><i class="fas fa-shopping-cart"></i>
-              </a>  
+              <a href="#" class="cartIcon"
+                ><i class="fas fa-shopping-cart"></i>
+              </a>
             </div>
             <img src="./img/car-11.jpg" alt="" class="store-img" />
           </div>
@@ -251,8 +317,9 @@
         <div class="store-item" data-id="audi">
           <div class="img-container">
             <div class="cartIcon-container">
-              <a href="#" class="cartIcon"><i class="fas fa-shopping-cart"></i>
-              </a>  
+              <a href="#" class="cartIcon"
+                ><i class="fas fa-shopping-cart"></i>
+              </a>
             </div>
             <img src="./img/car-12.jpg" alt="" class="store-img" />
           </div>
